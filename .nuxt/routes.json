@@ -1,0 +1,37 @@
+[
+  {
+    "name": "user-blog",
+    "path": "/user/blog",
+    "component": "F:\\\\拉钩教育\\\\part3\\\\part3-4\\\\my-blog\\\\pages\\\\user\\\\blog.vue",
+    "chunkName": "pages/user/blog",
+    "_name": "_4e28e860"
+  },
+  {
+    "name": "user-new",
+    "path": "/user/new",
+    "component": "F:\\\\拉钩教育\\\\part3\\\\part3-4\\\\my-blog\\\\pages\\\\user\\\\new.vue",
+    "chunkName": "pages/user/new",
+    "_name": "_8f7ed23c"
+  },
+  {
+    "name": "user-project",
+    "path": "/user/project",
+    "component": "F:\\\\拉钩教育\\\\part3\\\\part3-4\\\\my-blog\\\\pages\\\\user\\\\project.vue",
+    "chunkName": "pages/user/project",
+    "_name": "_e4f3224a"
+  },
+  {
+    "name": "user-social",
+    "path": "/user/social",
+    "component": "F:\\\\拉钩教育\\\\part3\\\\part3-4\\\\my-blog\\\\pages\\\\user\\\\social.vue",
+    "chunkName": "pages/user/social",
+    "_name": "_237e489b"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "F:\\\\拉钩教育\\\\part3\\\\part3-4\\\\my-blog\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7d5ddb02"
+  }
+]
