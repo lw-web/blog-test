@@ -40,7 +40,8 @@ module.exports = {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy'
   ],
   /*
    ** Axios module configuration
@@ -48,7 +49,18 @@ module.exports = {
    */
   axios: {
     baseURL: 'https://api.github.com',
-    timeout: 5000
+    timeout: 5000,
+    proxy: true,
+    prefix: '/api/'
+  },
+  proxy: {
+    '/api/': {
+      target: 'https://vercel-server.vercel.app/api/', // 目标服务器ip
+      pathRewrite: {
+        '^/api/': '/',
+        changeOrigin: true
+      }
+    }
   },
   /*
    ** Build configuration

@@ -3,7 +3,7 @@ import Vue from 'vue'
 
 
 const service = axios.create({
-    baseURL: "https://vercel-server.vercel.app/api",
+    baseURL: "/api",
     timeout: 15000
 })
 
